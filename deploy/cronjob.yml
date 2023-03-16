@@ -74,7 +74,7 @@ metadata:
   name: microshift-config-env
   namespace: microshift-config
 data:
-  ANSIBLE_PULL_REPO_CONN: https://github.com/redhat-na-ssa/microshift-ansible-pull.git
+  ANSIBLE_PULL_REPO_CONN: https://github.com/oglok/microshift-ansible-pull.git
   ANSIBLE_PULL_CHECKOUT: main
   ANSIBLE_PULL_MANAGE_HOSTS: microshift,microshift_node
   ANSIBLE_VAULT_PASSWORD_FILE: /tmp/secrets/.vault
